@@ -1,0 +1,58 @@
+@import "../../styles/colors.scss";
+.article-preview {
+  width: 100%;
+
+  padding: 15px 0;
+  border-bottom: 2px solid var(--color-background-3);
+  &:last-child {
+    border: none;
+  }
+
+  .article-preview-container {
+    background: var(--color-background-2);
+    color: var(--color-text-3);
+    border-radius: 8px;
+    padding: 25px;
+    transition: 0.3s transform;
+    &:hover {
+      transform: scale(1.02);
+    }
+    .header-side {
+      h3 {
+        font-size: 24px;
+        font-weight: 500;
+        padding: 0.4em 0;
+        margin: 0;
+        color: var(--color-text-2);
+      }
+    }
+    .content-side {
+      div {
+        color: var(--color-text-3);
+        font-size: 16px;
+        padding: 10px;
+      }
+    }
+    .edit-side {
+      margin-top: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 15px;
+      padding-right: 5px;
+      .icon-container {
+        cursor: pointer;
+        background: var(--color-background-1);
+        display: flex;
+        padding: 6px;
+        border-radius: 6px;
+        .icon {
+          fill: var(--color-icon-1);
+        }
+        &:hover {
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 15px;
+        }
+      }
+    }
+  }
+}

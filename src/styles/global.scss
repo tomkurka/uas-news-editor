@@ -1,0 +1,32 @@
+@import "./textarea.scss";
+@import "./scrollbar.scss";
+@import "./button.scss";
+@import "./icon.scss";
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, Nunito, Lato, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--color-background-1);
+  color: var(--color-text-3);
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-section-label {
+  color: var(--color-text-5);
+}

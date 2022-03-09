@@ -1,0 +1,19 @@
+@import "../../../../styles/colors.scss";
+
+.section-label {
+  color: var(--color-text-5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 0;
+  margin-bottom: 5px;
+  .label-icon {
+    background: var(--color-background-2);
+    padding: 4px;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    cursor: pointer;
+    fill: var(--color-icon-2);
+  }
+}

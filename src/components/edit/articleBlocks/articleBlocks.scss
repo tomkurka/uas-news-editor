@@ -1,0 +1,54 @@
+@import "../../../styles/colors.scss";
+
+.article-blocks {
+  .article-blocks-container {
+    width: 100px;
+    max-height: 100vh;
+    min-height: 100vh;
+    padding: 13px;
+    position: fixed;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .section-container {
+      font-size: 11px;
+      width: 60px;
+      padding: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 8px;
+      width: 100%;
+
+      .icon-highlight {
+        padding: 10px;
+        cursor: pointer;
+        background: var(--color-main-2);
+        border-radius: 6px;
+        fill: white;
+        &:hover {
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 15px, rgba(149, 157, 165, 0.2) 0px 0px 15px;
+          background: var(--color-main-1);
+        }
+      }
+      .icon {
+        padding: 10px;
+        border-radius: 6px;
+        cursor: pointer;
+        background: var(--color-background-2);
+        fill: var(--color-icon-2);
+        &:hover {
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 15px;
+          background: var(--color-background-3);
+        }
+        &:active {
+          background: var(--color-background-4);
+        }
+      }
+    }
+  }
+}

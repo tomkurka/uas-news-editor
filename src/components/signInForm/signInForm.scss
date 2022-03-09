@@ -1,0 +1,25 @@
+@import "../../styles/colors.scss";
+
+.sign-in {
+  .form-sign-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+  button {
+    background: var(--color-main-3);
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 60px;
+    &:hover {
+      background: var(--color-main-2);
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 15px;
+    }
+    width: 100%;
+  }
+}

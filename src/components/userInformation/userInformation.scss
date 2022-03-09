@@ -1,0 +1,35 @@
+@import "../../styles/colors.scss";
+.user-information {
+  .user-information-container {
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 20px;
+    .information-box {
+      width: 100%;
+      margin-bottom: 12px;
+      .label {
+        font-size: 16px;
+        margin-bottom: 5px;
+        color: var(--color-text-3);
+      }
+    }
+    .buttons-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding-top: 10px;
+      button {
+        background: var(--color-background-3);
+        color: var(--color-text-3);
+        width: 100%;
+        padding: 10px 0;
+        font-size: 18px;
+        &:hover {
+          background: var(--color-background-3);
+        }
+      }
+    }
+  }
+}

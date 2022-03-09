@@ -1,0 +1,20 @@
+@import "../../styles/colors.scss";
+
+.sign-up-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  .sign-up-page-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h2 {
+      font-weight: 500;
+      margin-bottom: 30px;
+      font-size: 32px;
+    }
+  }
+}
